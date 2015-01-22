@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.it.vibin.example.drag.MainActivity"
+    android:id="@+id/container">
+    
+    <com.example.it.vibin.example.drag.VerticalViewPager
+        android:id="@+id/vp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:clickable="true">
+    </com.example.it.vibin.example.drag.VerticalViewPager>
+    
+    <View android:id="@+id/drop_zone_left"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/darker_gray"
+        android:alpha="0.5">
+    </View>
+    
+    <View android:id="@+id/drop_zone_right"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/darker_gray"
+        android:alpha="0.5">
+    </View>
+
+</RelativeLayout>
