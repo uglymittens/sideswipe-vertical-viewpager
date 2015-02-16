@@ -1,4 +1,4 @@
-package com.example.it.vibin.example.drag;
+package it.vibin.sideswipe.drag;
 
 /*
  * Copyright (C) 2011 The Android Open Source Project

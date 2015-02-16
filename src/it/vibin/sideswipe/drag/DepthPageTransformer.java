@@ -1,7 +1,12 @@
-package com.example.it.vibin.example.drag;
+package it.vibin.sideswipe.drag;
 
 import android.view.View;
 
+/**
+ * 
+ * @copyright Google, Inc.
+ *
+ */
 public class DepthPageTransformer implements VerticalViewPager.PageTransformer {
     private static final float MIN_SCALE = 0.75f;
 
